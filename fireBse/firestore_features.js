@@ -1,8 +1,8 @@
 import { collection, addDoc, getDocs } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js'
 
 let alunoMayke = {
-    nome: "Mayke Souza da Silva",
-    ra: "00028922"
+    nome: "Igor Rocha",
+    ra: "000286676"
 }
 
 let fbAddDocCbFn = (docRef) => {
@@ -30,5 +30,5 @@ let fbListDocs = async (fbDb, collectionName, fbListDocsCbFn) => {
     })
 }
 
-fbAddDoc(window.fbDb, alunoMayke, "alunos", fbAddDocCbFn);
+fbAddDoc(window.fbDb, alunoIgor, "alunos", fbAddDocCbFn);
 fbListDocs(window.fbDb, "alunos");
