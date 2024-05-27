@@ -1,6 +1,6 @@
 import { collection, addDoc, getDocs } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js'
 
-let alunoMayke = {
+let alunoIgor    = {
     nome: "Igor Rocha",
     ra: "000286676"
 }
